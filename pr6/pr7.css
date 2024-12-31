@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,7 +24,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Breadcrumbs */
+ 
   .breadcrumbs {
     margin-bottom: 20px;
   }
@@ -38,7 +38,7 @@ body {
     margin: 0 8px;
   }
   
-  /* Product Section */
+  
   .product-section {
     flex: 2;
     margin-right: 20px;
@@ -182,7 +182,7 @@ body {
     font-size: 14px;
   }
   
-  /* Cart Summary */
+  
   .cart-summary {
     flex: 1;
     background: #fafafa;
