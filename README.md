@@ -1,5 +1,6 @@
-## click me: [login page link](login/login.html)
-## [reg page](register/register.html)
+### click me: [login page link](login/login.html)
+### click me: [reg page](register/register.html)
+### click me:[ui page](ui/ui.html)
 ###### name: yuvaraj kannan
 ###### dept: cse
 ###### project tittle: e-commerce
