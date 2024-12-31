@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopcart Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+ <div class="eco">
+    <div class="login-container">
+        <div class="login-box">
+           
+            <div class="logo-container">
+                <img src="pr3.jpg" alt="SHOPCARD" class="logo">
+            </div>
+
+            
+            <form id="loginForm" action="javascript:void(0);" method="POST">
+                <h2 class="lo">Login <i id="hello" class="fa-brands fa-shopify"></i></h2>
+                
+               
+                <div class="input-group">
+                    <label>Email:<i class="fa-regular fa-envelope"></i></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required="">
+                    
+                </div>
+
+               
+                <div class="input-group">
+                    <label>Password:<i class="fa-solid fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required="">
+                   
+                </div>
+
+              
+                <button type="submit" class="submit-btn"><a href="file:///C:/Users/DELL/Desktop/New%20folder%20(2)/ui/ui.html">Login</a></button>
+
+                
+                <div class="forgot-password">
+                    <a href="file:///C:/Users/DELL/Desktop/New%20folder%20(2)/forget/forget.html">Forgot Password?</a>
+                </div>
+                <div class="Register" ><a href="file:///C:/Users/DELL/Desktop/New%20folder%20(2)/register/register.html">
+                    Don't have an account? Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+     document.addEventListener("DOMContentLoaded", function() {
+     
+     document.getElementById('loginForm').addEventListener('submit', function(event) {
+       event.preventDefault(); 
+
+       
+       document.getElementById('loginForm').reset();
+     });
+   });
+</script>
+</body>
+</html>

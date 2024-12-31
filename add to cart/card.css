@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(p1.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 670px;
+    background-position: 240px 0px;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left: 30%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    display: block;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+  }
+  
+  input[type="text"], select {
+    font-size: 14px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button.submit-btn {
+    background-color: #fdb44b;
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #ff9a3c;
+  }
+  
+  button.submit-btn:focus {
+    outline: none;
+  }
+  
+  
+  .success-message {
+    display: none;
+    background-color: #d4edda;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #c3e6cb;
+    color: black;
+    text-align: center;
+  }
+  
+  .success-message h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .success-message p {
+    font-size: 16px;
+  }
+  

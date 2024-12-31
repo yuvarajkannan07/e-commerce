@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Address</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Delivery Address</h2>
+    <form id="deliveryForm" action="javascript:void(0);" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+      <label for="address">Address Line 1</label>
+      <input type="text" id="address" name="address" required placeholder="Street Address">
+
+      <label for="address2">Address Line 2</label>
+      <input type="text" id="address2" name="address2" placeholder="Apartment">
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required placeholder="Enter your city">
+
+      <label for="state">State</label>
+      <input type="text" id="state" name="state" required placeholder="Enter your state">
+
+      <label for="postal-code">Postal Code</label>
+      <input type="text" id="postal-code" name="postal-code" required placeholder="Enter postal code">
+
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="" disabled selected>Select your country</option>
+        <option value="india">india</option>
+     </select>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <div id="successMessage" class="success-message">
+      <h3>Order Successful!</h3>
+      <p>Your order has been placed successfully. Thank you for shopping with us!</p>
+    </div>
+  </div>
+
+  <script >
+    document.addEventListener("DOMContentLoaded", function() {
+     
+      document.getElementById('deliveryForm').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        
+        alert("Order Successful! Your order has been placed successfully. Thank you for shopping with us!");
+
+        
+        document.getElementById('deliveryForm').reset();
+      });
+    });
+  
+  </script>
+</body>
+</html>

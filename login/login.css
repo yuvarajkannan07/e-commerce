@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #f1eff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(pr5.jpg);
+    background-repeat: no-repeat;
+    background-position: 230px 100px;
+    background-size:620px 400px;
+}
+
+.login-container
+ {
+    width: 110%;
+    max-width:700px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    margin-left:80%;
+    background-color:none;
+    border-radius:10px;
+}
+.login-container:hover{
+   
+    color: white;
+}
+
+.login-box {
+   
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid #333;
+    background-color: white;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-color: black;
+}
+.logo:hover{
+    width: 200px;
+    cursor: pointer;
+}
+.logo {
+    width: 140px;
+    height: auto;
+    border-radius: 12px;
+}
+#hello{
+    padding-left: 5px;
+}
+.lo:hover{
+    color:#ff9a3c;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:black;
+    font-weight: bolder;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight:bolder;
+}
+.input-group label:hover{
+   color:#ff9a3c;
+   cursor: pointer;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: whitesmoke;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    margin-left:0%;
+    background-color:  #fdb44b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.submit-btn a
+{
+    text-decoration:none;
+    font-weight: bolder;
+    color:black;
+}
+
+.submit-btn:hover {
+    background-color: #ff9a3c;
+}
+
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color:  #333;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: #ff9a3c;
+}
+.Register a{
+    color:#333;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.Register a:hover{
+    color: #ff9a3c;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+

@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f5a623 ;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+header .profile {
+    font-size: 1rem;
+}
+.hr{
+    border-style:dashed;
+    color:#f5a623 ;
+    border-width: 2px;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.gallery {
+ 
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery .item {
+    text-align: center;
+}
+
+.gallery .item img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery .item h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #f5a623;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: black;
+}
